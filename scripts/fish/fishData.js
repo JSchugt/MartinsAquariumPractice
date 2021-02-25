@@ -17,7 +17,15 @@ export const fishCollection = [
         inches: 3,
         image: "pinkfish.jpg"
     },
-    { saltWater: true, harvestLocation: "Atlantic Ocean", diet: "squid", name: "BigBoss", species: "Amber Jack", inches: 60, image: "greyfish.jpg" },
+    {
+        saltWater: true,
+        harvestLocation: "Atlantic Ocean",
+        diet: "squid",
+        name: "BigBoss",
+        species: "Amber Jack",
+        inches: 60,
+        image: "greyfish.jpg"
+    },
     {
         saltWater: true,
         harvestLocation: "Pacific Ocean",
@@ -222,6 +230,6 @@ export const fishCollection = [
 ];
 
 
-export const getFish = () =>{
+export const getFish = () => {
     return fishCollection;
 }
