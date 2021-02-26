@@ -1,8 +1,9 @@
 import {fish} from "./fish.js";
-import {getFish} from "./fishData.js";
+import {getFish, getMostHolyFish, getUnworthy, getSoldierFish} from "./fishData.js";
+
 
 export const FishList = () =>{
-    const allFishes = getFish();
+    const allFishes = getUnworthy();
 
     const DOMLocation = document.querySelector("#fishList");
 
