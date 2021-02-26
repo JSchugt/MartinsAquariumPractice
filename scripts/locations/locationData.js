@@ -1,7 +1,7 @@
-const location = [
+export const location = [
     {
-        area: "Barbados",
-        weather: "Warm"
+        area:"Barbados",
+        weather:"Warm"
     },
     {
         area: "Caribean",
@@ -21,6 +21,6 @@ const location = [
     }
 ];
 
-export const getLocations = (location) => {
+export const getLocations = () => {
     return location;
 }
