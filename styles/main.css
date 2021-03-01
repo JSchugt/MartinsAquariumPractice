@@ -57,34 +57,44 @@ nav a:active {
 	color: lightgreen;
 }
 
+/*Fish Collection and aside*/
 .fishTank {
 	margin: 1em 0;
 	display: flex;
 	flex-direction: row-reverse;
 }
-
 #fishList{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
+.fish-image {
+	width: 100%;
+	height: 100px;
+}
 .fish-card {
 	background-color: lightcyan;
 	margin: .5em;
 	max-width: 200px;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+
+
+ .fishsort{
+	display: flex;
+	flex-direction: column;
+} 
+
+
+
 
 .fish-card ul {
 	list-style-type:none;
 	padding: .5em;
 	margin: .2em;
 	font-size: .8em;
-}
-
-.fish-image {
-	width: 100%;
-	height: 100px;
 }
 
 .section-main {

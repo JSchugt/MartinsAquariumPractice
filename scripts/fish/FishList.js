@@ -3,13 +3,23 @@ import {getFish, getMostHolyFish, getUnworthy, getSoldierFish} from "./fishData.
 
 
 export const FishList = () =>{
-    const allFishes = getUnworthy();
+    const holyFish = getMostHolyFish();
 
     const DOMLocation = document.querySelector("#fishList");
 
-    let fishHTMLRep = "";
+    let fishHTMLRep = ``;
+    for(const onThingFromTheSea of holyFish){
+        fishHTMLRep += fish(onThingFromTheSea);
+    }
+    
+    const soldier = getSoldierFish();
+    for(const onThingFromTheSea of soldier){
+        fishHTMLRep += fish(onThingFromTheSea);
+    }
+    
 
-    for(const onThingFromTheSea of allFishes){
+    const unworthy = getUnworthy();
+    for(const onThingFromTheSea of unworthy){
         fishHTMLRep += fish(onThingFromTheSea);
     }
 

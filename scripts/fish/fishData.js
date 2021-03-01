@@ -280,7 +280,7 @@ export const getSoldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
     const soldiersArray =  [];
     for (const fish of fishCollection){
-        if(fish.inches % 5 === 0){
+        if(fish.inches % 5 === 0 && fish.inches % 3 !== 0 ){
             soldiersArray.push(fish);
         }
     }
