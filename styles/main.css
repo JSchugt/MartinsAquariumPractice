@@ -63,12 +63,25 @@ nav a:active {
 	display: flex;
 	flex-direction: row-reverse;
 }
-#fishList{
+.fishSection{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+
+}
+.theFish{
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.fishHead {
+	color: white;
 }
 
+
+
+/*individual fish blocks*/
 .fish-image {
 	width: 100%;
 	height: 100px;
@@ -82,10 +95,6 @@ nav a:active {
 }
 
 
- .fishsort{
-	display: flex;
-	flex-direction: column;
-} 
 
 
 
