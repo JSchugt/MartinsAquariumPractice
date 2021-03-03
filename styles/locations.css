@@ -1,0 +1,18 @@
+
+#locationList{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#locationList div {
+	background-color: turquoise;	
+	flex-basis: 18%;
+}
+#locationList div h3 {
+	text-align: center;
+}
+#loctionList ul li{
+	text-align: left;
+}

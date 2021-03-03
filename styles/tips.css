@@ -1,0 +1,8 @@
+
+#TipAside {
+	min-width: 20%;
+	user-select: none;
+}
+#TipAside div{
+	background-color: orange;
+}
